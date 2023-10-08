@@ -40,6 +40,10 @@ a {
     padding: 26px 0 20px 0px;
 }
 
+.menu2 {
+    display: none;
+}
+
 .intro {
     background-color: #F1E4E6;
 }
@@ -243,76 +247,109 @@ a {
     text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 376px) {
     .header-container {
-        max-width: 768px;
+        max-width: 375px;
     }
 
     .logo {
-        padding: 18px 41px 19px 32px;
+        height: 38px;
+        width: 44px;
+        padding: 18px 41px 18px 16px;
     }
 
     .search {
-        padding: 28px 424px 20px 0px;
+        padding: 28px 200px 19px 0px;
     }
 
     .menu {
-        padding: 19px 33px 20px 0px;
+        display: none;
+    }
+
+    .menu-2 {
+        height: 23px;
+        width: 32px;
+        padding: 25px 0 26px 0px;
     }
 
     .intro-container {
-        max-width: 768px;
-        height: 368px;
+        max-width: 375px;
+        height: 363px;
     }
 
     .intro-img {
-        height: 368px;
-        width: 386px;
+        display: none;
     }
 
     .intro-title {
-        font-size: 44px;
-        margin-left: 39px;
-        height: 78px;
-        width: 283px
+        font-size: 38px;
+        margin-left: 56px;
+        height: 66px;
+        width: 236px;
     }
 
     .intro-title-help {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .intro-title-help span {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .img {
-        width: 232px;
-        height: 167px;
+        width: 343px;
+        height: 247px;
     }
 
     .img3 {
-        width: 734px;
-        height: 117px;
+        width: 343px;
+        height: 111px;
+        object-fit: cover;
     }
+
     .title {
         width: 154px;
     }
-    
+
     .title-down {
         width: 160px;
-        left: 120%;
+        top: 25%;
+        left: 27%;
     }
-    
+
     .up {
-        grid-template-columns: repeat(3, 232px);
-        max-width: 768px;
-        gap: 19px;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(3, 247px);
+        max-width: 375px;
     }
-   
+
 
     .bottom {
-        grid-template-columns: repeat(2, 360px);
-        grid-template-rows: repeat(3, 581px);
-        max-width: 768px;
+        grid-template-columns: repeat(1, 359px);
+        grid-template-rows: repeat(6, 579px);
+        max-width: 375px;
     }
+
+    .text2 {
+        margin-top: 12px;
+    }
+
+    .price {
+        margin-top: 18px;
+    }
+
+    .img2 {
+        width: 359px;
+        height: 419px;
+    }
+
+    .bottom-content {
+        background-color: #F8F8F8;
+        padding: 24px 16px;
+    }
+
+    .main {
+        margin-top: 64px;
+    }
+
 }
