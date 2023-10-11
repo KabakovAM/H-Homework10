@@ -40,7 +40,7 @@ a {
     padding: 26px 0 20px 0px;
 }
 
-.menu2 {
+.menu-2 {
     display: none;
 }
 
@@ -247,6 +247,84 @@ a {
     text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+    .header-container {
+        max-width: 768px;
+    }
+
+    .logo {
+        padding: 18px 41px 19px 32px;
+    }
+
+    .search {
+        padding: 28px 424px 20px 0px;
+    }
+
+    .menu {
+        padding: 19px 33px 20px 0px;
+    }
+
+    .menu-2 {
+        display: none;
+    }
+
+    .intro-container {
+        max-width: 768px;
+        height: 368px;
+    }
+
+    .intro-img {
+        height: 368px;
+        width: 386px;
+    }
+
+    .intro-title {
+        font-size: 44px;
+        margin-left: 39px;
+        height: 78px;
+        width: 283px
+    }
+
+    .intro-title-help {
+        font-size: 24px;
+    }
+
+    .intro-title-help span {
+        font-size: 24px;
+    }
+
+    .img {
+        width: 232px;
+        height: 167px;
+    }
+
+    .img3 {
+        width: 734px;
+        height: 117px;
+    }
+    .title {
+        width: 154px;
+    }
+    
+    .title-down {
+        width: 160px;
+        left: 120%;
+    }
+    
+    .up {
+        grid-template-columns: repeat(3, 232px);
+        max-width: 768px;
+        gap: 19px;
+    }
+   
+
+    .bottom {
+        grid-template-columns: repeat(2, 360px);
+        grid-template-rows: repeat(3, 581px);
+        max-width: 768px;
+    }
+}
+
 @media screen and (max-width: 376px) {
     .header-container {
         max-width: 375px;
@@ -353,3 +431,4 @@ a {
     }
 
 }
+
