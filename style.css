@@ -33,15 +33,68 @@ a {
 }
 
 .search {
-    padding: 28px 859px 20px 0px;
-}
-
-.menu {
-    padding: 26px 0 20px 0px;
+    padding: 28px 0px 20px 0px;
 }
 
 .menu-2 {
+    margin: 30px 0px 22px auto;
+}
+
+.menu-3 {
+    margin: 26px 0px 20px 33px;
+}
+
+.menu-4 {
+    margin: 26px 160px 20px 33px;
+}
+
+.sub-help {
+    display: block;
+    position: inline-block;
+}
+
+.sub-menu {
     display: none;
+    position: absolute;
+    margin-left: 99px;
+    width: 232px;
+    height: 634px;
+    background-color: white;
+}
+
+.menu-2:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu-1 {
+    color: #000;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 32px 144px 24px 33px;
+}
+
+.sub-menu-2 {
+    color: #F16D7F;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0px 145px 0px 32px;
+}
+
+.sub-menu-3 {
+    list-style-type: none;
+    color: #6F6E6E;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0px 0px 10px 21px;
 }
 
 .intro {
@@ -63,7 +116,8 @@ a {
     font-weight: 900;
     line-height: 0.8;
     align-self: center;
-    margin-left: 91px;
+    margin-right: 331px;
+    margin-left: auto;
     height: 93px;
     border-left: 12px solid #F16D7F;
     padding-left: 16px;
@@ -169,6 +223,34 @@ a {
     padding: 24px 16px;
 }
 
+.add-1 {
+    position: relative;
+    display: inline-block;
+}
+
+.add {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 139px;
+    height: 44px;
+    border-color: #FFF;
+    background-color: none;
+}
+
+.img2:hover+.add {
+    display: block;
+    background-color: rgba(58, 56, 56, 0.86);
+}
+
 .title2 {
     color: #000;
     font-family: 'Lato';
@@ -232,20 +314,184 @@ a {
     justify-content: center;
 }
 
-.end-text {
+.end-button {
     color: #F26376;
     font-family: 'Lato';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 48px;
-    margin-top: 48px;
-    margin-bottom: 60px;
+    line-height: normal;
     width: 212px;
     height: 48px;
-    border: 1px solid #FF6A6A;
+    margin-top: 48px;
+    border-color: #FF6A6A;
+    background: white;
+}
+
+.end-button:hover {
+    color: #FFF;
+    background: #F16D7F;
+}
+
+.fall {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(3, 360px);
+    grid-template-rows: repeat(1, 341px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+    max-width: 1600px;
+    gap: 30px;
+    justify-content: center;
+    background-color: #222224;
+}
+
+.img4 {
+    padding: 103px 0px 0px 158px;
+}
+
+.title3 {
+    color: #FBFBFB;
+    font-family: 'Lato';
+    font-size: 19.96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 28px;
     text-align: center;
 }
+
+.text3 {
+    color: #FBFBFB;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 13.972px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 16px;
+    width: 360px;
+    height: 34px;
+}
+
+.fall2 {
+    display: flex;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("./img/photo\ subscribe.jpg");
+}
+
+
+.fall-img {
+    padding: 97px 0px 30px 350px;
+}
+
+.fall2-title {
+    color: #222224;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 360px;
+    height: 99px;
+    padding: 0px 0px 126px 228px;
+}
+
+
+.fall-sub {
+    color: #222224;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167.2%;
+    margin-top: 150px;
+    margin-left: 223px;
+    width: 557px;
+    height: 67px;
+    text-align: center;
+}
+
+.fall-sub span {
+    color: #222224;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 167.2%;
+}
+
+.sub-help{
+    display: inline-block;
+}
+
+.sub {
+    color: #222224;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 256px;
+    height: 49px;
+    flex-shrink: 0;
+    background-color: #E1E1E1;
+    margin-top: 32px;
+    border: none;
+    margin-left: 327px;
+
+}
+
+.sub-but {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100px;
+    height: 49px;
+    background-color: #F16D7F;
+    border: none;
+}
+
+.fall3 {
+    display: flex;
+    max-width: 1600px;
+    height: 79px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #222;
+}
+
+.fall3-title {
+    color: #FBFBFB;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 30px 655px 30px 235px;
+}
+
+.fall-logo {
+    width: 32px;
+    height: 32px;
+    background: white;
+    margin-top: 24px;
+    margin-right: 7px;
+}
+
+.fall-logo:hover {
+    background: #F16D7F;
+}
+
 
 @media screen and (max-width: 768px) {
     .header-container {
@@ -262,10 +508,6 @@ a {
 
     .menu {
         padding: 19px 33px 20px 0px;
-    }
-
-    .menu-2 {
-        display: none;
     }
 
     .intro-container {
@@ -302,27 +544,148 @@ a {
         width: 734px;
         height: 117px;
     }
+
     .title {
         width: 154px;
     }
-    
+
     .title-down {
         width: 160px;
         left: 120%;
     }
-    
+
     .up {
         grid-template-columns: repeat(3, 232px);
         max-width: 768px;
         gap: 19px;
     }
-   
+
 
     .bottom {
         grid-template-columns: repeat(2, 360px);
         grid-template-rows: repeat(3, 581px);
         max-width: 768px;
     }
+
+    .fall {
+        grid-template-columns: repeat(1, 768px);
+        grid-template-rows: repeat(3, 200px);
+        max-width: 768px;
+        gap: 48px;
+        padding: none;
+        margin: none;
+    }
+    
+    .img4 {
+        padding: none;
+        margin: none;
+    }
+    
+    .title3 {
+        color: #FBFBFB;
+        font-family: 'Lato';
+        font-size: 19.96px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        padding: none;
+        margin: none;
+    }
+    
+    .text3 {
+        color: #FBFBFB;
+        text-align: center;
+        font-family: 'Lato';
+        font-size: 13.972px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        padding: none;
+        margin: none;
+    }
+
+    .fall2 {
+        display: flex;
+        max-width: 768px;
+        height: 610px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("./img/photo\ subscribe.jpg");
+    }
+    
+    .fall-img {
+        padding: none;
+        margin-top: 64px;
+    }
+    
+    .fall2-title {
+        padding: none;
+        margin-top: 30;
+    }
+    
+    .fall-sub {
+        color: #222224;
+        font-family: 'Lato';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 167.2%;
+        width: 557px;
+        height: 67px;
+        text-align: center;
+        margin-top: 48px;
+    }
+    
+    .fall-sub span {
+        color: #222224;
+        text-align: center;
+        font-family: 'Lato';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 167.2%;
+    }
+    
+    .sub-help{
+        display: block;
+    }
+    
+    .sub {
+        color: #222224;
+        font-family: 'Lato';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 256px;
+        height: 49px;
+        flex-shrink: 0;
+        background-color: #E1E1E1;
+        border: none;
+    }
+    
+    .sub-but {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Lato';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 100px;
+        height: 49px;
+        background-color: #F16D7F;
+        border: none;
+    }
+    
+    .fall3 {
+        max-width: 768px;
+    }
+    
+    .fall3-title {
+        padding: 30px 315px 30px 32px;
+    }   
 }
 
 @media screen and (max-width: 376px) {
@@ -431,4 +794,3 @@ a {
     }
 
 }
-
