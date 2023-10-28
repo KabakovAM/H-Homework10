@@ -105,6 +105,10 @@ a {
 
 }
 
+.intro-img{
+    padding-right: 63px;
+}
+
 .intro-title {
     color: #222;
     font-family: 'Lato';
@@ -113,13 +117,10 @@ a {
     font-weight: 900;
     line-height: 0.8;
     align-self: center;
-    margin-right: 331px;
-    margin-left: auto;
     height: 93px;
     border-left: 12px solid #F16D7F;
     padding-left: 16px;
     display: inline-block;
-    vertical-align: middle;
 }
 
 .intro-title-help {
@@ -347,7 +348,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     margin-top: 65px;
-    max-width: 1600px;
+    max-width: auto;
     gap: 30px;
     background-color: #222224;
     justify-content: center;
@@ -383,11 +384,12 @@ a {
 
 .subscribe {
     display: flex;
-    max-width: 1600px;
+    max-width: auto;
     height: 448px;
     background-image: url("./img/photo\ subscribe.jpg");
     background-size: cover;
     justify-content: space-between;
+    margin: 0 auto;
 }
 
 .subscribe-left {
@@ -482,7 +484,8 @@ a {
     justify-content: space-between;
     align-items: center;
     background-color: #222;
-    max-width: 1600px;
+    max-width: auto;
+    margin: 0 auto;
 }
 
 .footer-title {
@@ -514,6 +517,9 @@ a {
 
 
 @media screen and (max-width: 1024px) {
+    html, body {
+        overflow-x: hidden;
+    }
 
     .header-container {
         max-width: 1024px;
@@ -561,10 +567,12 @@ a {
         max-width: 1024px;
     }
 
+    .intro-img{
+        padding-right: 39px;
+    }
+
     .intro-title {
         font-size: 44px;
-        margin-right: 33px;
-        margin-left: auto;
     }
 
     .intro-title-help {
@@ -744,6 +752,7 @@ a {
     .intro-container {
         max-width: 768px;
         height: 363px;
+        justify-content: center;
     }
 
     .intro-img {
@@ -752,7 +761,6 @@ a {
 
     .intro-title {
         font-size: 38px;
-        margin-right: 56px;
         height: 61px;
         border-left: 12px solid #F16D7F;
     }
